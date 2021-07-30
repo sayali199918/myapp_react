@@ -1,30 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+// import { useState } from "react";
+// import react from "react";
 
+// export default function App() {
+//   // DECALRING THE VARIBALE USING REACTG :: HOOKS
+//   // Array Destcutring :: React Hooks
+//   const [list, setList] = useState([]);
+
+//   // Arrow Function
+//   const addNewHello = () => {
+//     // Array Cloin
+//     const newList = [...list, "Hello World"];
+//     setList(newList);
+
+//     console.log(list);
+//   };
+
+//   // VIEW
+//   // React is unware of the changes of local variable
+//   return (
+//     <div>
+//       <h1>Working with Events and List</h1>
+//       <input type="button" value="Say Hello" onClick={addNewHello} />
+
+//       {list.map((item) => {
+//         return (
+//           <h3>
+//             {item} Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+//             Possimus ducimus id voluptatibus, iusto, nisi modi alias numquam
+//             doloremque atque provident consequuntur consectetur autem, molestias
+//             dicta. In voluptatibus possimus necessitatibus reprehenderit.
+//           </h3>
+//         );
+//       })}
+//     </div>
+//   );
+// }
+
+// // export default App;
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Hello Family....Tho kaise ho app log
-        i hope you guys doing well...!!!
-        i am sayli form mumbai. new
-        i am an engineer.
+  let title= "learning reacts"
+  return <div>
 
+  <h1 className="bg-dark text-light p-3">Hello</h1>
 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React        
-           </a>
-      </header>
-    </div>
-  );
+  </div>
+
 }
-
 export default App;
